@@ -11,3 +11,9 @@ SELECT `id`, `name`, `period`, `year`, `cfu`
 FROM `courses`
 WHERE `cfu` > 9;
 
+
+3. Selezionare tutti gli studenti che hanno più di 30 anni
+
+SELECT `id`, `name`, `surname`, `date_of_birth`
+FROM `students`
+WHERE `date_of_birth` < '1993-01-01';
